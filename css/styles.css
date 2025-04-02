@@ -23,6 +23,92 @@ nav ul {
 }
 
 body {
-  margin: 0;
-  font-family: sans-serif;
+  font-family: "DM Mono", monospace;
+  color: white;
+  background-color: #110032;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.passwordGenerator {
+  width: 33.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  
+}
+.subheader-lable{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin: 0px 0px 0px 0px;
+}
+
+.range-value{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.lable-container{
+  display: flex;
+  justify-content: 10px;
+  flex-direction: flex-start;
+  align-items: center;
+
+}
+
+.range-value{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.range-container{
+  width: 32.25rem;
+  padding: 20px 14px 20px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #241442;
+}
+
+.range-input { /* sobre escribir el estilo del input */
+  accent-color: #7400e4;
+  height: 2px;
+  width: 85%;
+}
+
+.button {
+  width: 32.25rem;
+  background-color: #7400e4;
+  color: white;
+  font-family: "DM Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 14px 20px 14px;
+  background-color: #a200d4;
+  background-image: linear-gradient(to right, #7944e7, #8300ab);
+}
+
+.button:hover {
+  transform: scale(.95); /* reduce un 5% */
+}
+
+input[type="text"] {
+  width: 32.25rem;
+  padding: 24px 0px 24px 0px;
+  font-size: 20px;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  background-color: #241442;
+  color: #ffffffab;
+
 }
