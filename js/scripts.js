@@ -19,6 +19,8 @@ const generatePassword = () => {
     }
     
     passwordInputElement.value = password; // contraseña en el input
+    console.log(password); //quiero ver contraseña en la consola :)
+    console.dir(rangeLenghtElement.value); //valor del rango
     
 };
 
@@ -28,5 +30,6 @@ rangeLenghtElement.addEventListener('input', changeRange);
 generateButtonElement.addEventListener('click', generatePassword);
 
 
-console.dir(rangeLenghtElement.value); //valor del rango
+
+
 
